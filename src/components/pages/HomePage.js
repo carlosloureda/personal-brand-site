@@ -1,10 +1,10 @@
 import React from "react";
 
-import Nav from "../nav/Nav";
+import HomeBanner from "../HomeBanner/HomeBanner";
 
 const HomePage = () => {
   //   return <h1>HomePAge</h1>;
-  return <Nav />;
+  return <HomeBanner />;
 };
 
 export default HomePage;
