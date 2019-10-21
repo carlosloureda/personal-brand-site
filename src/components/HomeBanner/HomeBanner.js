@@ -26,7 +26,7 @@ const HomeBanner = () => {
       <Container>
         <Row className="justify-content-start align-items-center">
           <Col lg="6" md="12" className="no-padding banner-right">
-            <img class="img-fluid" src="img/header-img.png" alt="" />
+            <img className="img-fluid" src="img/header-img.png" alt="" />
           </Col>
           <Col lg="6" md="12" className="banner-left">
             <h1 className="text-white">
