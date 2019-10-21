@@ -4,6 +4,7 @@ import HomeBanner from "../HomeBanner/HomeBanner";
 import Footer from "../Footer/Footer";
 import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
+import Features from "../Features/Features";
 
 const HomePage = () => {
   //   return <h1>HomePAge</h1>;
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HomeBanner />
       <Services />
       <Projects />
+      <Features />
       <Footer />
     </>
   );
