@@ -17,7 +17,6 @@ const Jobs = () => {
           <div className="menu-content pb-20 col-lg-8">
             <div className="title text-center">
               <h1 className="mb-10">Jobs</h1>
-              <p>Who are in extremely love with eco friendly system.</p>
             </div>
           </div>
         </Row>
