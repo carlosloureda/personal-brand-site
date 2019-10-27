@@ -21,7 +21,7 @@ const Section = styled.section`
 
 const HomeBanner = () => {
   return (
-    <Section>
+    <Section id="home">
       <NavComponent />
       <Container>
         <Row className="justify-content-start align-items-center">

@@ -11,7 +11,7 @@ const JobsSection = styled.section`
 
 const Jobs = () => {
   return (
-    <JobsSection>
+    <JobsSection id="jobs">
       <Container>
         <Row className="d-flex justify-content-center">
           <div className="menu-content pb-20 col-lg-8">

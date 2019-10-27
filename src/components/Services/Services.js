@@ -10,7 +10,7 @@ const ServiceSection = styled.section`
 
 const Services = () => {
   return (
-    <ServiceSection>
+    <ServiceSection id="services">
       <Container>
         <Row className="d-flex justify-content-center">
           <div className="menu-content pb-70 col-lg-8">

@@ -27,7 +27,7 @@ const Features = () => {
   const mockedContent =
     "Usage of the Internet is becoming more common due to rapid advancement of technology and power.";
   return (
-    <FeaturesSection>
+    <FeaturesSection id="features">
       <Container>
         <Row className="d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">

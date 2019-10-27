@@ -31,15 +31,11 @@ const NavComponent = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#service">Service</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#services">Services</Nav.Link>
+              <Nav.Link href="#jobs">Jobs</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-
-              <NavDropdown title="Pages" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Generic</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Elements</NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="#features">Features</Nav.Link>
+              {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

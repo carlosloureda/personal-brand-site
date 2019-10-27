@@ -26,7 +26,7 @@ const ProjectSection = styled.section`
 
 const Projects = () => {
   return (
-    <ProjectSection>
+    <ProjectSection id="projects">
       <Container>
         <Row className="d-flex justify-content-center">
           <div className="menu-content pb-70 col-lg-8">
