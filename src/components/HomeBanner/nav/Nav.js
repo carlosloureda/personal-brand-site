@@ -1,6 +1,7 @@
 import React from "react";
 
-import logo from "../../../img/logo.png";
+// import logo from "../../../img/logo.png";
+import logo from "../../../img/carlos_loureda.png";
 
 import styled from "styled-components";
 
