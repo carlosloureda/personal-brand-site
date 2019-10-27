@@ -23,11 +23,11 @@ const Services = () => {
         <Row>
           <div className="single-service col-lg-6 col-md-6 mb-30">
             <div className="icon">
-              <img src="img/s1.png" alt="" />
+              <img src="img/project.png" alt="" width="60px" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
-                <a href="/">Web Design</a>
+                <a href="/">Project Management</a>
               </h4>
               <p className="mt-20">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -38,11 +38,11 @@ const Services = () => {
           </div>
           <div className="single-service col-lg-6 col-md-6 mb-30">
             <div className="icon">
-              <img src="img/s2.png" alt="" />
+              <img src="img/advisor.png" alt="" width="60px" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
-                <a href="/">Mobile Design</a>
+                <a href="/">Mentoring</a>
               </h4>
               <p className="mt-20">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -53,11 +53,11 @@ const Services = () => {
           </div>
           <div className="single-service col-lg-6 col-md-6">
             <div className="icon">
-              <img src="img/s3.png" alt="" />
+              <img src="img/web-dev.png" alt="" width="60px" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
-                <a href="/">Print Design</a>
+                <a href="/">Web Development</a>
               </h4>
               <p className="mt-20">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -68,11 +68,11 @@ const Services = () => {
           </div>
           <div className="single-service col-lg-6 col-md-6">
             <div className="icon">
-              <img src="img/s4.png" alt="" />
+              <img src="img/mobile-app.png" alt="" width="60px" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
-                <a href="/">Interaction Design</a>
+                <a href="/">Mobile Development</a>
               </h4>
               <p className="mt-20">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

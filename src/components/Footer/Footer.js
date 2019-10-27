@@ -44,6 +44,29 @@ const Footer = () => {
                 This website is made with <FaHeart aria-hidden={true} /> by{" "}
                 <span>Carlos</span>
               </p>
+              <div>
+                Icons made by{" "}
+                <a
+                  href="https://www.flaticon.com/authors/freepik"
+                  title="Freepik"
+                >
+                  Freepik
+                </a>
+                ,{" "}
+                <a
+                  href="https://www.flaticon.com/authors/eucalyp"
+                  title="Eucalyp"
+                >
+                  Eucalyp
+                </a>
+                ,{" "}
+                <a
+                  href="https://www.flaticon.com/authors/flat-icons"
+                  title="Flat Icons"
+                >
+                  Flat Icons
+                </a>
+              </div>
             </div>
           </Col>
           <Col lg="5" md="6" sm="6">
