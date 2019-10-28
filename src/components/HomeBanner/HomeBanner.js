@@ -32,16 +32,16 @@ const HomeBanner = () => {
             <h1 className="text-white">
               Hi, I’m <br />
               <span>Carlos Loureda</span> <br />
-              Software Arquitect
+              Software Arquitect & Consultant
             </h1>
             <p className="mx-auto text-white  mt-20 mb-40">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod temp <br /> or incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim.
+              For 10 years I have been working with Software Development, and in
+              close contact with companies needs, helping building startups and
+              helping them grow
             </p>
-            <a href="/" className="text-uppercase header-btn">
+            {/* <a href="/" className="text-uppercase header-btn">
               Let Us Talk
-            </a>
+            </a> */}
           </Col>
         </Row>
       </Container>
