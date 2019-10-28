@@ -82,14 +82,14 @@ const SingleFeature = ({ title, content, url }) => {
           {longText &&
             textExpanded &&
             content.map((line, i) => (
-              <p>
+              <p key={i}>
                 {line}
                 {i === content.length - 1 ? (
                   <ShowMore onClick={e => toggleText(e)}>Show Less</ShowMore>
                 ) : null}
               </p>
             ))}
-          {!longText && content.map((line, i) => <p>{line}</p>)}
+          {!longText && content.map((line, i) => <p key={i}>{line}</p>)}
         </div>
       </SingleFeatureDiv>
     </Col>

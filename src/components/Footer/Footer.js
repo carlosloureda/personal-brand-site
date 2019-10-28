@@ -73,7 +73,7 @@ const Footer = () => {
             <div className="single-footer-widget">
               <H6>Newsletter</H6>
               <p>Stay update with my latest</p>
-              <div class="d-flex flex-row">
+              <div className="d-flex flex-row">
                 <Form
                   method="get"
                   className="form-inline"
