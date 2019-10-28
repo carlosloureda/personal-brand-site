@@ -2003,7 +2003,6 @@ h6 {
 .banner-area,
 .myself-wrap .desc .talk-btn,
 .skillbar-bar,
-.single-feature:hover,
 .single-footer-widget .click-btn,
 .generic-banner {
   background-image: linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
@@ -2386,7 +2385,6 @@ h6 {
   height: 1px;
 }
 
-
 .single-project a {
   color: #000;
 }
@@ -2409,36 +2407,6 @@ h6 {
     margin-right: auto !important;
     display: block;
   }
-}
-
-.single-feature {
-  background-color: #f9f9ff;
-  padding: 30px 30px 15px 30px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.single-feature a {
-  color: #000;
-}
-
-.single-feature:hover {
-  cursor: pointer;
-  color: #fff;
-}
-
-.single-feature:hover a,
-.single-feature:hover .title .lnr {
-  color: #fff;
-}
-
-.single-feature .title .lnr {
-  color: #000;
-  font-weight: 400;
-  margin-right: 12px;
-  font-size: 20px;
 }
 
 .single-contact-info {
