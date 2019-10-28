@@ -4,7 +4,7 @@ import HomeBanner from "../HomeBanner/HomeBanner";
 import Services from "../Services/Services";
 import Jobs from "../Jobs/Jobs";
 import Projects from "../Projects/Projects";
-import Features from "../Features/Features";
+import Reviews from "../Reviews/Reviews";
 import Footer from "../Footer/Footer";
 import ScrollButton from "../ScrollButton";
 
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Services />
       <Jobs />
       <Projects />
-      <Features />
+      <Reviews />
       <Footer />
       <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
     </>

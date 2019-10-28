@@ -4,11 +4,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const FeaturesSection = styled.section`
+const ReviewsSection = styled.section`
   padding-top: 100px;
 `;
 
-const SingleFeatureDiv = styled.div`
+const SingledReviewDiv = styled.div`
   background-color: #f9f9ff;
   padding: 30px 30px 15px 30px;
   -webkit-transition: all 0.3s ease 0s;
@@ -44,7 +44,7 @@ const ShowMore = styled.span`
   }
 `;
 
-const SingleFeature = ({ title, content, url }) => {
+const SingledReview = ({ title, content, url }) => {
   const [textExpanded, setTextExpanded] = React.useState(false);
   const longText = content.length > 185 ? true : false;
   const textShortennedArr = content.slice(0, 185).split("\n");
@@ -58,7 +58,7 @@ const SingleFeature = ({ title, content, url }) => {
 
   return (
     <Col lg="4" md="6">
-      <SingleFeatureDiv className="single-feature">
+      <SingledReviewDiv className="single-dReview">
         <div className="title d-flex flex-row pb-20">
           <span className="lnr lnr-user"></span>
           <h4>
@@ -91,11 +91,11 @@ const SingleFeature = ({ title, content, url }) => {
             ))}
           {!longText && content.map((line, i) => <p key={i}>{line}</p>)}
         </div>
-      </SingleFeatureDiv>
+      </SingledReviewDiv>
     </Col>
   );
 };
-const Features = () => {
+const Reviews = () => {
   const figueComment = `Carlos stands out for being a great partner and of course a great friend! There is no doubt that he has made Domesting a dynamic and fun place to work and where everyone can participate.
     He has great qualities to lead a team but what he stands out for is his personal skills, he always tries to be fair in his decisions by empathizing with people and reaching a consensus. He has managed to create an organized and competent technical team, always promoting the work and effort of the youngest and helping them to grow in their careers.
     His joy and commitment have managed to infect the whole team with the necessary enthusiasm for the project to go ahead even at the lowest moments.
@@ -114,43 +114,43 @@ const Features = () => {
   const sacoComment = `I would like to write a recommendation that will help Carlos achieve what he is proposing at the moment at a professional level, but I doubt that he can compete with his own persistence. Carlos is a tireless worker, who is always looking for a way to surpass himself, others, and mainly to surprise with solutions in the most unexpected moments. I would not hesitate to have him as a partner and I am left with the desire to be able to undertake something in common. Who knows...`;
   const url = "https://www.linkedin.com/in/carlos-loureda-parrado/#ember518";
   return (
-    <FeaturesSection id="features">
+    <ReviewsSection id="reviews">
       <Container>
         <Row className="d-flex justify-content-center">
           <div className="menu-content pb-70 col-lg-8">
             <div className="title text-center">
-              <h1 className="mb-10">Some Features that Made us Unique</h1>
-              <p>Who are in extremely love with eco friendly system.</p>
+              <h1 className="mb-10">Some of my latests Linkedin Reviews</h1>
+              {/* <p>Who are in extremely love with eco friendly system.</p> */}
             </div>
           </div>
         </Row>
         <Row>
-          <SingleFeature
+          <SingledReview
             title="Patricia Figueroa Rodríguez"
             content={figueComment}
             url={url}
           />
-          <SingleFeature
+          <SingledReview
             title="Rubén Costa Martínez"
             content={rubenComment}
             url={url}
           />
-          <SingleFeature
+          <SingledReview
             title="Alex González Rodríguez"
             content={alexComment}
             url={url}
           />
-          <SingleFeature
+          <SingledReview
             title="Patricia Saco"
             content={sacoComment}
             url={url}
           />
-          {/* <SingleFeature title="Highly Recomended" content={mockedContent} />
-          <SingleFeature title="Positive Reviews" content={mockedContent} /> */}
+          {/* <SingledReview title="Highly Recomended" content={mockedContent} />
+          <SingledReview title="Positive Reviews" content={mockedContent} /> */}
         </Row>
       </Container>
-    </FeaturesSection>
+    </ReviewsSection>
   );
 };
 
-export default Features;
+export default Reviews;
