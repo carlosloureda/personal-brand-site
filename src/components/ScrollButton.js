@@ -18,21 +18,21 @@ const Button = styled.button`
   }
 `;
 
-const ArrowUp = styled.span`
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -9px;
-  margin-left: -5px;
-`;
+// const ArrowUp = styled.span`
+//   color: white;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   margin-top: -9px;
+//   margin-left: -5px;
+// `;
 
 class ScrollButton extends React.Component {
   constructor() {
     super();
 
     this.state = {
-      intervalId: 0
+      intervalId: 0,
     };
   }
 
